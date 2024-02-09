@@ -42,9 +42,9 @@ background-image: url("img/Shirish-104.jpg");
   justify-content: center;
   gap: 30px;
 }
-.icons img{
+.foot img{
  cursor: pointer;
-  width: 50px;
+  width: 40px;
 }
 .contact-image{
   width: 100%;
@@ -53,6 +53,16 @@ background-image: url("img/Shirish-104.jpg");
   align-items: center;
   border: none;
 }
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(42, 123, 244);
+}
+
 
 /* about section image  */
 #image{
@@ -68,4 +78,13 @@ h1{
     height: 80vh;
 
   }
+  .navbar{
+    background: url("https://images.unsplash.com/photo-1494200483035-db7bc6aa5739?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+  }
 
+.navbar .navbar-toggler:focus{
+  outline: none;
+  box-shadow: none;
+}

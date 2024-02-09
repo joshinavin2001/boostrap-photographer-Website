@@ -24,31 +24,33 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#Home"><h1>Naveen <span class="text-primary">Studio</span></h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <img src="img/camera-solid.svg" class="navbar-toggler-icon" alt="">
+            
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 text-center">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Home"><span class="text-primary">Home</span></a>
+                <a class="nav-link nav-hide active" aria-current="page" href="index.html"><span class="text-primary">Home</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link nav-hide" href="#">Portfolio</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#desti">Destination Wedding Shoot</a></li>
-                  <li><a class="dropdown-item" href="#pre-wed">Pre-Wedding Shoot</a></li>
-                  <li><a class="dropdown-item" href="#candid">Candid Shoot</a></li>
+                  <li><a class="dropdown-item nav-hide" href="services/desti.html">Destination Wedding Shoot</a></li>
+                  <li><a class="dropdown-item nav-hide" href="services/pre.html">Pre-Wedding Shoot</a></li>
+                  <li><a class="dropdown-item nav-hide" href="services/candid.html">Candid Shoot</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link abt" href="#About">About</a>
+                <a class="nav-link nav-hide abt" href="about.html">About</a>
               </li>
             <li class="nav-item">
-                <a class="nav-link" href="#Contact">Contact</a>
+                <a class="nav-link nav-hide" href="contact.html">Contact</a>
               </li>
             </ul>
            
@@ -288,18 +290,84 @@
           </div>
         </div>
        </section>
-       <!-- footer section  -->
 
-       <div class="container-fluid">
-        <div class="icons">
-          <img src="b5img/icon1.png" alt="">
-          <img src="b5img/icon3.png" alt="">
-          <img src="b5img/icon2.png" alt="">
-        </div>
-     
-            
-          </div>
-          <p class="text-dark text-center">&#169;copyrights naveen studio 2024.</p>
+          <footer class="bg-body-tertiary text-center">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="foot mb-4">
+                <!-- Facebook -->
+                <a
+                data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  
+                  href="#!"
+                  role="button"
+                  >
+                  <!-- <i class="fab fa-facebook-f"></i> -->
+                  <img src="b5img/icon1.png" alt="">
+                </a>
+          
+                <!-- Twitter -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  >
+                  <img src="b5img/icon2.png" alt="">
+              </a>
+          
+                <!-- Google -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  >
+                  <img src="b5img/icon3.png" alt="">
+                </a>
+          
+                <!-- Instagram -->
+                <a
+                  data-mdb-ripple-init
+                  class="btn text-white btn-floating m-1"
+                  href="#"
+                  role="button"
+                  >
+                  <img src="b5img/icon4.png" alt="">
+                </a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+              © 2024 Copyright:
+              <a class="text-body" href="index.html">Naveen Studio</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
      <!-- javscript bootstrap cdn link  -->
     <script
